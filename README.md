@@ -11,18 +11,18 @@ I'm a fresher looking for Data Analyst and MIS roles, and I kept wondering which
 * **Pay:** stored as yearly rupees. For internships I used the monthly stipend x 12. 21 postings did not list any pay, so those are left blank.
 * **Skills I recorded for each posting:** MS Excel, SQL, Power BI, Python, VBA, Advanced Excel
 
-I collected everything by hand into Excel first (`data/Job\_Postings\_Final.xlsx`), then loaded it into MySQL.
+I collected everything by hand into Excel first (`data/Job_Postings_Final.xlsx`), then loaded it into MySQL.
 
 ## How the database is built
 
 ```
-jobs        (job\_id, title, job\_type, company, city, salary\_min, salary\_max,
-             duration\_months, source, posted\_date)
-skills      (skill\_id, skill\_name)
-job\_skills  (job\_id, skill\_id)
+jobs        (job_id, title, job_type, company, city, salary_min, salary_max,
+             duration_months, source, posted_date)
+skills      (skill_id, skill_name)
+job_skills  (job_id, skill_id)
 ```
 
-One job asks for several skills, and one skill is asked for by many jobs. So skills sit in their own table, and `job\_skills` links the two.
+One job asks for several skills, and one skill is asked for by many jobs. So skills sit in their own table, and `job_skills` links the two.
 
 ## The 10 queries
 
@@ -55,19 +55,19 @@ One job asks for several skills, and one skill is asked for by many jobs. So ski
 
 Q2: **Most in-demand skills\*\*
 
-![Q2](q2\_top\_skills.png)
+![Q2](q2_top_skills.png)
 
 
 
 Q4: **Postings needing Excel, SQL and Power BI together\*\*
 
-![Q4](q4\_all\_three.png)
+![Q4](q4_all_three.png)
 
 
 
 Q6: **Share of each job title asking for each skill\*\*
 
-![Q6](q6\_title\_skill\_share.png)
+![Q6](q6_title_skill_share.png)
 
 ## How to run it
 
@@ -90,10 +90,10 @@ It works on MySQL 5.7 and 8.
 ```
 job-market-skill-tracker/
 |-- README.md
-|-- sql/job\_market\_tracker.sql      tables, data and the 10 queries
-|-- data/job\_postings.csv           the data, readable in the browser
-|-- data/Job\_Postings\_Final.xlsx    my original Excel sheet
-|-- screenshots/                    query results from MySQL Workbench
+|-- sql/job_market_tracker.sql      tables, data and the 10 queries
+|-- data/job_postings.csv           the data, readable in the browser
+|-- data/Job_Postings_Final.xlsx    my original Excel sheet
+|-- QueryResults                    query results from MySQL Workbench
 ```
 
 Ameek Singh Panesar
