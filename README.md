@@ -72,8 +72,8 @@ Q6: **Share of each job title asking for each skill\*\*
 ## How to run it
 
 1. Install MySQL and MySQL Workbench.
-2. Open `sql/job\_market\_tracker.sql` in Workbench (File > Open SQL Script).
-3. Run the whole script with the lightning-bolt button. It creates the `job\_tracker` database, builds the three tables, loads the 100 postings and runs the 10 queries.
+2. Open `sql/job_market_tracker.sql` in Workbench (File > Open SQL Script).
+3. Run the whole script with the lightning-bolt button. It creates the `job_tracker` database, builds the three tables, loads the 100 postings and runs the 10 queries.
 4. Click through the result tabs to see the output of each query.
 
 It works on MySQL 5.7 and 8.
