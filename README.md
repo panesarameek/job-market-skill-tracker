@@ -55,19 +55,19 @@ One job asks for several skills, and one skill is asked for by many jobs. So ski
 
 Q2: Most in-demand skills\*\*
 
-!\[Q2](Query Result/q2\_top\_skills.png)
+!\[Q2](Query%20Result/q2\_top\_skills.png)
 
 
 
 Q4: Postings needing Excel, SQL and Power BI together\*\*
 
-!\[Q4](Query Result/q4\_all\_three.png)
+!\[Q4](Query%20Result/q4\_all\_three.png)
 
 
 
 Q6: Share of each job title asking for each skill\*\*
 
-!\[Q6](Query Result/q6\_title\_skill\_share.png)
+!\[Q6](Query%20Result/q6\_title\_skill\_share.png)
 
 ## How to run it
 
