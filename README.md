@@ -51,7 +51,7 @@ One job asks for several skills, and one skill is asked for by many jobs. So ski
 * **Q9:** Of the 51 jobs with pay, 13 are under 3 LPA, 27 are between 3 and 5 LPA, and 11 are 5 LPA or above.
 * **Q10:** 20 postings ask for SQL but not Power BI.
 
-# **Results**
+## **Results**
 
 Q2: **Most in-demand skills\*\*
 
