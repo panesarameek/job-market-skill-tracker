@@ -11,7 +11,7 @@ I'm a fresher looking for Data Analyst and MIS roles, and I kept wondering which
 * **Pay:** stored as yearly rupees. For internships I used the monthly stipend x 12. 21 postings did not list any pay, so those are left blank.
 * **Skills I recorded for each posting:** MS Excel, SQL, Power BI, Python, VBA, Advanced Excel
 
-I collected everything by hand into Excel first (`data/Job_Postings_Final.xlsx`), then loaded it into MySQL.
+I collected everything by hand into Excel first (`Job_Postings_Final.xlsx`), then loaded it into MySQL.
 
 ## How the database is built
 
@@ -72,7 +72,7 @@ Q6: **Share of each job title asking for each skill\*\*
 ## How to run it
 
 1. Install MySQL and MySQL Workbench.
-2. Open `sql/job_market_tracker.sql` in Workbench (File > Open SQL Script).
+2. Open 'job_market_tracker.sql' in Workbench (File > Open SQL Script).
 3. Run the whole script with the lightning-bolt button. It creates the `job_tracker` database, builds the three tables, loads the 100 postings and runs the 10 queries.
 4. Click through the result tabs to see the output of each query.
 
@@ -88,13 +88,11 @@ It works on MySQL 5.7 and 8.
 ## Files
 
 ```
-job-market-skill-tracker/
-|-- README.md
-|-- sql/job_market_tracker.sql      tables, data and the 10 queries
-|-- data/job_postings.csv           the data, readable in the browser
-|-- data/Job_Postings_Final.xlsx    my original Excel sheet
-|-- QueryResults                    query results from MySQL Workbench
-```
-
+   job-market-skill-tracker/
+   |-- README.md
+   |-- job_market_tracker.sql          tables, data and the 10 queries
+   |-- job_postings.csv                the data, readable in the browser
+   |-- Job_Postings_Final.xlsx         my original Excel sheet
+   |-- q1_data_check.png ... q10_sql_no_power_bi.png    query results
 Ameek Singh Panesar
 
